@@ -16,7 +16,7 @@
 
 ### requests.get()
 
-![requests.png](/Users/ym/Desktop/Notes/Python网络爬虫/resources/requests.get.png)
+![requests.png](resources/requests.get.png)
 
 - 主要格式
 
@@ -86,7 +86,7 @@ except:
 | PATCH  | 请求局部更新URL位置的资源，即改变该处资源的部分内容       |
 | DELETE | 请求删除URL位置存储的资源                                 |
 
-![http协议对资源的操作](/Users/ym/Desktop/Notes/Python网络爬虫/resources/http协议对资源的操作.png)
+![http协议对资源的操作](resources/http协议对资源的操作.png)
 
 注：HTTP协议方法和Requests库提供的库方法，功能上完全一致
 

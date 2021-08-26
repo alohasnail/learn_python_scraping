@@ -2,7 +2,7 @@
 
 ### requests.request(method, url, **kwargs)
 
-![requests.request()方法](/Users/ym/Desktop/Notes/Python网络爬虫/resources/request方法.png)
+![requests.request()方法](resources/request方法.png)
 
 - **kwargs : 控制访问参数，均为可选项
 

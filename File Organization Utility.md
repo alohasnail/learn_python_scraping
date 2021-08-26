@@ -31,6 +31,35 @@ shutil, or called shell utility, it provides functions like copy, move, or delet
 
 
 
+#### send2trash
+
+Using shutil to delete file is very dangerous, the detelted file can not be recovered. Instead, can use a third party module named `send2trash`, it will move these deleted files to trash bin, so it still can be recovered later. 
+
+```python
+>>> import send2trash
+>>> send2trash.send2trash('./sample.txt')  # delete file sample.txt in current dir, the file will be moved to system transh bin
+```
+
+
+
+#### walk through whole directory
+
+`os.walk()` can walk through the whole directory, including all sub directories and files.
+
+```python
+>>> import os
+>>> for dirname, subdirs, files in os.walk('/etc'):
+  			print(f'current fold is {dirname}')
+    		for subdir in subdirs:
+        		print(f'Sub folder of {dirname} : {subdir}')
+        for file in files:
+          	print(f'File inside {dirname} : {file}')
+```
+
+
+
+
+
 
 
 
